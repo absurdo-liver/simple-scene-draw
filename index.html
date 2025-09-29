@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <p id='output1'></p>
+      <label>
+        (
+      <input id='commandDrawPointX' type="text" placeholder="x">,
+      <input id='commandDrawPointY' type="text" placeholder="y">
+        )
+      </label>
+      <button onclick="getInForDrawPoint(1)">draw point</button>
+      <button onclick="getInForDrawPoint(0)">erase point</button>
+      <br>
+      <h3 id="autosaveText" class="hidden">autosaving<h3>
+  </body>
+</html>
